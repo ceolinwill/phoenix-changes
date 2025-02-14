@@ -12,3 +12,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add [TailwindFormatter](https://hexdocs.pm/tailwind_formatter).
 - Add [Styler](https://hexdocs.pm/styler).
 - Add [Credo](https://hexdocs.pm/credo).
+- Add Dependabot configuration.
