@@ -20,3 +20,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add check for transitive compilation dependencies in CI using [mix xref graph](https://hexdocs.pm/mix/Mix.Tasks.Xref.html#content).
 - Add task to update translations: `locale: ["gettext.extract", "gettext.merge priv/gettext"]`.
 - Add Bun and Prettier to CI.
+- Use npm and bun for dependencies.
