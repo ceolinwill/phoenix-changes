@@ -21,9 +21,12 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add Bun and Prettier to CI.
 - Use npm and bun for dependencies.
 - Replace `let` with `const` in JavaScript files.
-- Increase the `topbar` delay to `1000` to avoid flickering.
+- Increase the `topbar` delay to `1000` to avoid flickixering.
 - Replace `heroicons` with `tabler-icons`.
 - Remove `finch` from `swoosh` and `application` (use `Req` instead).
 - Update favicon and logo.
 - Add supported locales to `config/config.exs`.
 - Add task to update translations: `locale: ["gettext.extract", "gettext.merge priv/gettext"]`.
+- Move `layouts` out of `components`.
+- Set `gzip` to `true` in `endpoint.ex`.
+- Remove boilerplate from layouts and home controller.
