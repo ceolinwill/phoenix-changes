@@ -18,10 +18,12 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add [mix_audit](https://hexdocs.pm/mix_audit).
 - Add CI: compile, format, credo, sobelow, unused deps, deps.audit, hex.audit, test.
 - Add check for transitive compilation dependencies in CI using [mix xref graph](https://hexdocs.pm/mix/Mix.Tasks.Xref.html#content).
-- Add task to update translations: `locale: ["gettext.extract", "gettext.merge priv/gettext"]`.
 - Add Bun and Prettier to CI.
 - Use npm and bun for dependencies.
 - Replace `let` with `const` in JavaScript files.
 - Increase the `topbar` delay to `1000` to avoid flickering.
 - Replace `heroicons` with `tabler-icons`.
 - Remove `finch` from `swoosh` and `application` (use `Req` instead).
+- Update favicon and logo.
+- Add supported locales to `config/config.exs`.
+- Add task to update translations: `locale: ["gettext.extract", "gettext.merge priv/gettext"]`.
