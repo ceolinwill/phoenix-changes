@@ -11,3 +11,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Sort dependencies alphabetically in `mix.exs`.
 - Add [TailwindFormatter](https://hexdocs.pm/tailwind_formatter).
 - Add [Styler](https://hexdocs.pm/styler).
+- Add [Credo](https://hexdocs.pm/credo).
