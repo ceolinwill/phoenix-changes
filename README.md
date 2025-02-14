@@ -24,3 +24,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Replace `let` with `const` in JavaScript files.
 - Increase the `topbar` delay to `1000` to avoid flickering.
 - Replace `heroicons` with `tabler-icons`.
+- Remove `finch` from `swoosh` and `application` (use `Req` instead).
