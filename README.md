@@ -30,3 +30,5 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Move `layouts` out of `components`.
 - Set `gzip` to `true` in `endpoint.ex`.
 - Remove boilerplate from layouts and home controller.
+- Adjust `telemetry` formatting to use one line per event.
+- Move core components to individual files.
