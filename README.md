@@ -21,3 +21,5 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add task to update translations: `locale: ["gettext.extract", "gettext.merge priv/gettext"]`.
 - Add Bun and Prettier to CI.
 - Use npm and bun for dependencies.
+- Replace `let` with `const` in JavaScript files.
+- Increase the `topbar` delay to `1000` to avoid flickering.
