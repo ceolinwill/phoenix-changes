@@ -32,3 +32,5 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Remove boilerplate from layouts and home controller.
 - Adjust `telemetry` formatting to use one line per event.
 - Move core components to individual files.
+- Add `phx.gen.auth`.
+- Remove password authentication.
