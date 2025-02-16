@@ -34,3 +34,6 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Move core components to individual files.
 - Add `phx.gen.auth`.
 - Remove password authentication.
+- Remove "remember me" checkbox.
+- Make auth wording consistent: `signin`, `signup`, `signout`.
+- Translate auth pages.
