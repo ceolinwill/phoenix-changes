@@ -37,3 +37,5 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Remove "remember me" checkbox.
 - Make auth wording consistent: `signin`, `signup`, `signout`.
 - Translate auth pages.
+- Rename controllers: `MyAppWeb.UserSessionController` -> `MyAppWeb.Controller.UserSession`.
+- Rename liveview modules: `MyAppWeb.UserRegistrationLive` -> `MyAppWeb.Live.UserRegistration`.
