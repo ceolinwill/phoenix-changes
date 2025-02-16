@@ -41,3 +41,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Rename liveview modules: `MyAppWeb.UserRegistrationLive` -> `MyAppWeb.Live.UserRegistration`.
 - List all schemas under `MyAppSchema` and the `zoonk_schema` folder for easy access.
 - Move token management outside the `UserToken` module to keep schemas clean and without business logic.
+- Move `auth.ex` to the `auth` folder to keep the main context inside its own folder.
