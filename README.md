@@ -39,7 +39,8 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Translate auth pages.
 - Rename controllers: `MyAppWeb.UserSessionController` -> `MyAppWeb.Controller.UserSession`.
 - Rename liveview modules: `MyAppWeb.UserRegistrationLive` -> `MyAppWeb.Live.UserRegistration`.
-- List all schemas under `MyAppSchema` and the `zoonk_schema` folder for easy access.
+- List all schemas under `MyApp.Schema` and the `myapp/_schemas` folder for easy access.
+- List all queries under `MyApp.Query` and the `myapp/_queries` folder for easy access, making queries composable.
 - Move token management outside the `UserToken` module to keep schemas clean and without business logic.
 - Move `auth.ex` to the `auth` folder to keep the main context inside its own folder.
 - Add `@moduledoc` to generated schemas like `User` and `UserToken`.
