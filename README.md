@@ -46,3 +46,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add `@moduledoc` to generated schemas like `User` and `UserToken`.
 - Add `gettext` to generated auth files.
 - Add `content-security-policy` and fix issues on dev dashboard.
+- Use `{0, 0, 0, 0}` for IP address in `config/dev.exs` to test changes in other machines.
