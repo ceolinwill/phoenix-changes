@@ -45,3 +45,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Move `auth.ex` to the `auth` folder to keep the main context inside its own folder.
 - Add `@moduledoc` to generated schemas like `User` and `UserToken`.
 - Add `gettext` to generated auth files.
+- Add `content-security-policy` and fix issues on dev dashboard.
