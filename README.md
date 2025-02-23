@@ -18,8 +18,7 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add [mix_audit](https://hexdocs.pm/mix_audit).
 - Add CI: compile, format, credo, sobelow, unused deps, deps.audit, hex.audit, test.
 - Add check for transitive compilation dependencies in CI using [mix xref graph](https://hexdocs.pm/mix/Mix.Tasks.Xref.html#content).
-- Add Bun and Prettier to CI.
-- Use npm and bun for dependencies.
+- Add Prettier to CI.
 - Replace `let` with `const` in JavaScript files.
 - Increase the `topbar` delay to `1000` to avoid flickixering.
 - Replace `heroicons` with `tabler-icons`.
