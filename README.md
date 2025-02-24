@@ -34,7 +34,8 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add `phx.gen.auth`.
 - Remove password authentication.
 - Remove "remember me" checkbox.
-- Make auth wording consistent: `signin`, `signup`, `signout`.
+- Make auth module names consistent: `signin`, `signup`, `signout`.
+- Make auth links easier to remember: `/login`, `/signup`, `/logout`.
 - Translate auth pages.
 - Rename controllers: `MyAppWeb.UserSessionController` -> `MyAppWeb.Controller.UserSession`.
 - Rename liveview modules: `MyAppWeb.UserRegistrationLive` -> `MyAppWeb.Live.UserRegistration`.
