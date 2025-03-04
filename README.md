@@ -47,3 +47,4 @@ Here are the changes I make to every new Phoenix project. I’m documenting them
 - Add `gettext` to generated auth files.
 - Add `content-security-policy` and fix issues on dev dashboard.
 - Use `{0, 0, 0, 0}` for IP address in `config/dev.exs` to test changes in other machines.
+- Remove `confirm` page for page confirmation. Instead, create a new route to automatically confirm a user when clicking on the confirmation link.
